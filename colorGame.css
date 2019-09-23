@@ -1,0 +1,75 @@
+
+.square {
+    background-color: purple;
+    width: 30%;
+    padding-bottom: 30%;
+    margin: 5px;
+    float: left;
+    border-radius: 15px;
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s; /*For browser compatibility*/
+    -moz-transition: background 0.5s; /*For browser compatibility*/
+}
+body {
+    background-color: black;
+    margin: 0px 0px;
+}
+
+#container {
+    width: 600px;
+    margin: 30px auto;
+}
+#gameHeading {
+    color: white;
+    text-align: center;
+}
+#winOrLose {
+    color: black;
+    text-align: center;
+   
+}
+
+#stripe {
+    text-align: center;
+     background-color: white;
+} 
+.selected {
+    background-color: black;
+    color: white;
+}
+h1 {
+    background-color: black;
+    text-transform: uppercase;
+    line-height: 50px;
+    margin: 0px 0px;
+    font-family: sans-serif;
+    font-weight: 100;
+    letter-spacing: 10px;
+}
+
+#RGB {
+    display: block;
+}
+
+button {
+    border: none;
+    font-size: inherit;
+    background-color: white;
+    color: black;
+    font-family: sans-serif;
+    font-weight: 800;
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s; /*For browser compatibility*/
+    -moz-transition: background 0.5s; /*For browser compatibility*/
+    outline: none;
+}
+
+#winOrLose {
+    display: inline-block;
+    width: 20%; 
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
